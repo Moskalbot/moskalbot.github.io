@@ -76,6 +76,10 @@
 				$('#streamOnline').html(
 					"<span class=\"greenPill\" data-toggle=\"tooltip\" data-placement=\"right\" title=\"Стрим онлайн\"><i class=\"fa fa-twitch fa-lg\" style=\"margin-right: 5px\"/> " +
 					hrs + min + "</span>");
+				$('[data-toggle="tooltip"]').tooltip({
+					container: 'body',
+					trigger: 'hover'
+				});
 			} else {
 				$('#streamOnline').html('');
 			}

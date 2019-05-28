@@ -50,7 +50,7 @@
 					</div>
 					<div id="modalBody" class="modal-body">						
 						<div id="list0" style="overflow: auto; height:720px; width: 685px;"></div>
-						<a href="#timeline-menu" class="simplescrollup__button simplescrollup__button--hide">
+						<a class="pull-right" href="#timeline-menu" style="position: relative;bottom: 45px;right: 20px;">
 						  	<i class="fa fa-angle-up fa-3x"></i>
 						</a>						
 					</div>
@@ -272,13 +272,13 @@
 				} else if (this.responseText.startsWith('A user cannot follow themself')) {
 					followAge = 'Владелец канала. Невозможно быть подписанным на самого себя.';
 				} else {
-					var followDateRaw = this.responseText.replace('.', ''),
-					    followDate = followDateRaw.slice(0, followDateRaw.indexOf('-'));
+					var followDateRaw = this.responseText,
+					    followDate = followDateRaw.slice(0, followDateRaw.indexOf('-') - 1).replace('.', '');;
 	// 				var date = new Date("Jan 25 2015");
 	// 				var local = date.toLocaleDateString('ru', options);
 	// 				var time = Date.parse(date);
 	// 				var days = Math.floor((Math.abs((time - +new Date()) / 1000)) / 86400);
-					moment.lang('ru');
+					moment.locale('ru');
 					followAge = moment(followDate).format('Do MMMM, YYYY') + ' (' + daysAmount(followDate) + ')';
 				}				
 			} else return null;

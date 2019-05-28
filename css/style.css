@@ -15,6 +15,45 @@
     float: left!important
 }
 
+.fa-3x:hover {
+    color: #7347c5;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar-button { 
+    background-repeat:no-repeat; 
+    width:6px; 
+    height:0px 
+} 
+
+::-webkit-scrollbar-track { 
+    background-color:#32312e; 
+    box-shadow:0px 0px 3px #000 inset; 
+} 
+
+::-webkit-scrollbar-thumb { 
+    -webkit-border-radius: 5px; 
+    border-radius: 3px; 
+    background-color:#6441a5; 
+    box-shadow:0px 0px 10px rgba(0,0,0,.5) inset; 
+    background-position:center; 
+    background-repeat:no-repeat; 
+} 
+
+::-webkit-scrollbar-thumb:hover{
+    background-color:#6f4bb3;
+}
+
+::-webkit-resizer{ 
+    background-repeat:no-repeat; 
+    width:7px; 
+    height:0px 
+} 
+
+::-webkit-scrollbar{ 
+    width: 10px
+} 
+
 /* #list0  p {
     font: arial;
     font-size: 14px;
@@ -25,7 +64,6 @@
  font-family: 'Open Sans';
  font-style: normal;
  font-weight: 700;
- src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
 }
 
 body {

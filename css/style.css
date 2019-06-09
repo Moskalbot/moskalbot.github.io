@@ -15,6 +15,10 @@
     float: left!important
 }
 
+.ui-dialog { 
+    z-index: 1500;
+}
+
 .fa-3x:hover {
     color: #7347c5;
 }

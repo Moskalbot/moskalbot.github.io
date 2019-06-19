@@ -25,7 +25,7 @@
     --hyperlinks: #5c3e95;
 }
 
-.no-otline:focus {
+.no-outline:focus {
     outline: none;	
 }
 

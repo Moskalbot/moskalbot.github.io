@@ -25,6 +25,10 @@
     --hyperlinks: #5c3e95;
 }
 
+.no-otline:focus {
+    outline: none;	
+}
+
 .ui-dialog-content {
     float: left!important
 }

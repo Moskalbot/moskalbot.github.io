@@ -66,7 +66,7 @@
 </div>
 <script type="text/javascript">
     
-    $('#subdayStatus').html("<font color=\"red\">закрыто</font>");
+    $('#subdayStatus').html("<font color=\"#e20000\">закрыто</font>");
     $('#subdayVotes').html(0);
     $('#subdayGamesTable').html("<i>Список пуст</i>");    
    
@@ -81,8 +81,8 @@
         //                 if ("закрыто" === subdayStatus.status) {
 
         if ("закрыто" !== status) {
-            status = ("открыто" === status) ? "<font color=\"#5AFF00\">открыто</font>" :
-                "<font color=\"yellow\">окончено</font>";
+            status = ("открыто" === status) ? "<font color=\"#4cd800\">открыто</font>" :
+                "<font color=\"#d8d800\">окончено</font>";
             $('#subdayStatus').html(status);
             votesAPI();
             //                     var votes = "<iframe src=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vRxendKNyKxT1g33xOp9K-Nww3bz6qOonruIdpl9zJMYqY1VC4aaMHNHWeuksUP8OLyM03fo_XK3ZaF/pubhtml?gid=739999571&amp;single=true&amp;chrome=false&amp;headers=false&amp;range=E5\" " +

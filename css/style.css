@@ -750,6 +750,9 @@ td {
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
+    background-color: #3f3b82;
+    width: inherit;
+    left: -3px;
 }
 .ui-widget-content {
     border: 1px solid var(--ui-widget-content-border);
@@ -1352,6 +1355,7 @@ tr:nth-child(even) {
 
 .ui-accordion .ui-state-active:first-child {
 	margin-top: -30px !important;
+	font-size: 15px;
 }
 
 .ui-accordion:first-child {
@@ -1434,10 +1438,13 @@ tr:nth-child(even) {
 
 .ui-dialog .ui-dialog-title {
     color: #ddd;
+    font-size: 15px;
 }
 
 .ui-dialog .ui-dialog-content {
     color: #ccc;
+    padding: 1em 1em .5em;
+    overflow: hidden;
 }
 
 .ui-dialog-titlebar-close {

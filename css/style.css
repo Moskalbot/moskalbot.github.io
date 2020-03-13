@@ -700,6 +700,8 @@ td {
 /*     width: 12em; */
     border-style: none;
     background: none;
+    border-radius: 0;
+    box-shadow: 0 0 0 2px rgba(0,0,0,.4);
 }
 .ui-tabs-vertical .ui-tabs-nav li {
     clear: left;
@@ -1263,6 +1265,7 @@ tr:nth-child(even) {
     box-shadow: 0 6px 20px -5px rgba(0,0,0,.4), 0 0 0 1px rgba(0,0,0,.06);
     background-color: #24242d !important;
     margin-right: 10px;
+    left: 37px;
 }
 
 .form-control:focus {
@@ -1314,7 +1317,8 @@ tr:nth-child(even) {
 }
 
 .footable .btn-primary {
-    color: #ddd;
+    color: #ccc !important;
+    background: transparent !important;
 }
 
 .footable .btn-primary:hover {
@@ -1323,14 +1327,18 @@ tr:nth-child(even) {
 
 .footable .btn-primary:active {
     color: #ddd;
+    background: none !important;
 }
 
 .footable .btn-primary:focus {
     color: #ddd;
+    background: none !important;
 }
 
 .dropdown-toggle {
 	background: #2d2d3a !important;
+	padding-top: 7px !important;
+    	padding-bottom: 7px !important;
 }
 
 .dropdown-toggle:hover {
@@ -1452,13 +1460,14 @@ tr:nth-child(even) {
     border: none;
     color: #ddd;;
     outline: none;
+    margin: -11px 7px 0 0 !important;
 }
 
 .fa:focus {
-	outline: none;
+    outline: none;
 }
 
 label, ul {
-	color: #ddd;
+    color: #ddd;
 }
 /* End of override */

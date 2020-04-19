@@ -25,6 +25,11 @@
     --hyperlinks: #5c3e95;
 }
 
+.ui-state-hover {
+    background-color: #25252f !important;
+    box-shadow: -10px 9px 21px rgba(0, 0, 0, 0.3) !important;
+}
+
 @keyframes fadeInUpArts {
     from {
         transform: translate3d(0,30px,0)

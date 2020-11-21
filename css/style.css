@@ -174,13 +174,14 @@ h1.yellow {
 }
 h1.twitch {
  color: #ffffff;
+ font-size: 55px;
  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
 }
   
 #logo {    
-    height: 60px;
-    width: 60px;
-    margin-left: 10px;
+/*     height: 60px;
+    width: 60px; */
+/*     margin-left: 10px; */
     float: left;
     display: inline-block;
     margin-top: 10px;
@@ -190,6 +191,8 @@ h1.twitch {
 #logo img {
 /*     height: 15%;
     width:15%; */
+    height: 60px;
+    width: 60px;
     margin-top: 13px;
     border-radius:50%;
     background:#1b2631;
@@ -266,7 +269,7 @@ pre {
 
 h1 {
     color: white;
-    padding-top: 20px;
+/*     padding-top: 20px; */
     margin-left: 15px;
     font-size: 26px;
     font-family: "Roboto", arial;

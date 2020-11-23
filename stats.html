@@ -69,7 +69,7 @@
 					hrs = (uptime / 3600 < 1 ? '' : Math.floor(uptime / 3600) + 'ч'),
 					min = ((uptime % 3600) / 60 < 1 ? '' : hrs === '' ? Math.floor((uptime % 3600) / 60) + 'м' : ' ' + Math.floor((
 						uptime % 3600) / 60) + 'м');
-				$('#logo').addClass('online');
+				$('#onLogo').addClass('online');
 				$('#streamOnline').html(
 					"<span class=\"greenPill\" data-toggle=\"tooltip\" data-placement=\"right\" title=\"Стрим онлайн\"><i class=\"fa fa-twitch fa-lg\" style=\"margin-right: 5px\"/> " +
 					hrs + min + "</span>");

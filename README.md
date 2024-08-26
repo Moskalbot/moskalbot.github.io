@@ -1,1 +1,1 @@
-# https://moskalbot.stream/
+# moskalbot.github.io
